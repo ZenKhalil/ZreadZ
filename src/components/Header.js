@@ -15,7 +15,7 @@ const Header = ({ user }) => {
       <p>{user.bio}</p>
       <div className="sub-info-container">
         <p className="sub-text">
-          {user.followers.length} followers • <a href={user.link}>{user.link}</a>
+          {user.followers.length} followers • <a href={user.link}>{user.link.replace("https://", "")}</a>
         </p>
       </div>
       <button

@@ -1,9 +1,17 @@
 import Thread from "./Thread";
 
-const Feed = () => {
+const Feed = ({ user, setOpenPopUp,  filteredThreads, getThreads, setInteractingThread }) => {
   return (
   <div className="feed">
-    <Thread/>
+    {filteredThreads?.map(filteredThread => 
+      <Thread 
+      key={filteredThread.id}
+      setOpenPopUp={setOpenPopUp}
+      user={user}
+      filteredThread={filteredThread}
+      getThreads={getThreads}
+      setInteractingThread={setInteractingThread}
+      />)}
   </div>
   )
 }

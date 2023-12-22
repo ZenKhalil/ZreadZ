@@ -1,109 +1,170 @@
 {
- "users": [
-   {
-     "id": 0,
-     "user_uuid": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
-     "username": "Code with Zen",
-     "handle": "zenkhalil",
-     "bio": "Make some videos here n there!",
-     "link": "https://linktr.ee/zenkhalil",
-     "img": "https://i.imgur.com/ZLyi7Qk.jpg",
-     "instagram_url": "https://www.instagram.com/thekilluacat",
-     "followers": [
-       {
-         "user_uuid": "afba0a9a-e291-40c5-be54-5135a2fdbbcc"
-       },
-       {
-         "user_uuid": "0dbb4e19-b726-4769-ae9a-2f360b79c79e"
-       },
-       {
-         "user_uuid": "c65dc0ef-7f74-42ce-a425-e2a634ee22ff"
-       }
-     ]
-   },
-   {
-     "id": 1,
-     "user_uuid": "afba0a9a-e291-40c5-be54-5135a2fdbbcc",
-     "username": "Ben 10",
-     "handle": "ben10",
-     "bio": "Savior of the universe!",
-     "link": "https://ben10.com",
-     "img": "https://i.imgur.com/uB1HAEE.png",
-     "instagram_url": "https://www.instagram.com/ben10",
-     "followers": [
-       {
-         "user_uuid": "ee100716-70ed-491d-b4d4-df126ae9ddfc"
-       }
-     ]
-   },
-   {
-     "id": 2,
-     "user_uuid": "0dbb4e19-b726-4769-ae9a-2f360b79c79e",
-     "username": "Kevin",
-     "handle": "kevinlevin",
-     "bio": "Visited the null void once in while!",
-     "link": "https://kevin11.com",
-     "img": "https://shorturl.at/zCI47",
-     "instagram_url": "https://www.instagram.com/kevin11",
-     "followers": [
-       {
-         "user_uuid": "ee100716-70ed-491d-b4d4-df126ae9ddfc"
-       }
-     ]
-   }
- ],
- "threads": [
-{
-    "id": 0,
-    "timestamp": "Wed Dec 20 2023 17:59:14 GMT+0100 (Central European Standard Time)",
-    "thread_from": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
-    "thread_to": null,
-    "reply_to": null,
-    "text": "Hellow world (of threads)",
-    "likes": [
+  "users": [
+    {
+      "id": 0,
+      "user_uuid": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
+      "username": "Code with Zen",
+      "handle": "zenkhalil",
+      "bio": "Make some videos here n there!",
+      "link": "https://linktr.ee/zenkhalil",
+      "img": "https://i.imgur.com/ZLyi7Qk.jpg",
+      "instagram_url": "https://www.instagram.com/thekilluacat",
+      "followers": [
         {
-            "uuid": "0dbb4e19-b726-4769-ae9a-2f360b79c79e"
+          "user_uuid": "afba0a9a-e291-40c5-be54-5135a2fdbbcc"
         },
         {
-            "uuid": "afba0a9a-e291-40c5-be54-5135a2fdbbcc"
+          "user_uuid": "0dbb4e19-b726-4769-ae9a-2f360b79c79e"
+        },
+        {
+          "user_uuid": "c65dc0ef-7f74-42ce-a425-e2a634ee22ff"
         }
-    ]
-},
-{
-  "id": 1,
-  "timestamp": "Wed Dec 21 2023 21:09:14 GMT+0100 (Central European Standard Time)",
-  "thread_from": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
-  "thread_to": null,
-  "reply_to": null,
-  "text": "Here is a new thread",
-  "likes": []
-},
-{
-  "id": 2,
-  "timestamp": "Wed Dec 22 2023 11:09:14 GMT+0100 (Central European Standard Time)",
-  "thread_from": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
-  "thread_to": null,
-  "reply_to": null,
-  "text": "Here is another new thread",
-  "likes": []
-},
-{
-  "id": 3,
-  "timestamp": "Wed Dec 25 2023 13:09:14 GMT+0100 (Central European Standard Time)",
-  "thread_from": "afba0a9a-e291-40c5-be54-5135a2fdbbcc",
-  "thread_to": null,
-  "reply_to": null,
-  "text": "Humongosur!",
-  "likes": []
-},
-{
-  "id": 4,
-  "timestamp": "Wed Dec 25 2023 13:11:19 GMT+0100 (Central European Standard Time)",
-  "thread_from": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
-  "thread_to": "afba0a9a-e291-40c5-be54-5135a2fdbbcc",
-  "reply_to": 3,
-  "text": "Nice! Why not Big chill?",
-  "likes": []
-}
-]
+      ]
+    },
+    {
+      "id": 1,
+      "user_uuid": "afba0a9a-e291-40c5-be54-5135a2fdbbcc",
+      "username": "Ben 10",
+      "handle": "ben10",
+      "bio": "Savior of the universe!",
+      "link": "https://ben10.com",
+      "img": "https://i.imgur.com/uB1HAEE.png",
+      "instagram_url": "https://www.instagram.com/ben10",
+      "followers": [
+        {
+          "user_uuid": "ee100716-70ed-491d-b4d4-df126ae9ddfc"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "0dbb4e19-b726-4769-ae9a-2f360b79c79e",
+      "username": "Kevin",
+      "handle": "kevinlevin",
+      "bio": "Visited the null void once in while!",
+      "link": "https://kevin11.com",
+      "img": "https://shorturl.at/zCI47",
+      "instagram_url": "https://www.instagram.com/kevin11",
+      "followers": [
+        {
+          "user_uuid": "ee100716-70ed-491d-b4d4-df126ae9ddfc"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": 0,
+      "timestamp": "Wed Dec 20 2023 17:59:14 GMT+0100 (Central European Standard Time)",
+      "thread_from": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hellow world (of threads)",
+      "likes": [
+        {
+          "user_uuid": "0dbb4e19-b726-4769-ae9a-2f360b79c79e"
+        },
+        {
+          "user_uuid": "afba0a9a-e291-40c5-be54-5135a2fdbbcc"
+        },
+        {
+          "user_uuid": "ee100716-70ed-491d-b4d4-df126ae9ddfc"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "timestamp": "Wed Dec 21 2023 21:09:14 GMT+0100 (Central European Standard Time)",
+      "thread_from": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Here is a new thread",
+      "likes": [
+        {
+          "user_uuid": "ee100716-70ed-491d-b4d4-df126ae9ddfc"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "Wed Dec 22 2023 11:09:14 GMT+0100 (Central European Standard Time)",
+      "thread_from": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Here is another new thread",
+      "likes": []
+    },
+    {
+      "id": 3,
+      "timestamp": "Wed Dec 25 2023 13:09:14 GMT+0100 (Central European Standard Time)",
+      "thread_from": "afba0a9a-e291-40c5-be54-5135a2fdbbcc",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Humongosur!",
+      "likes": []
+    },
+    {
+      "id": 4,
+      "timestamp": "Wed Dec 25 2023 13:11:19 GMT+0100 (Central European Standard Time)",
+      "thread_from": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
+      "thread_to": "afba0a9a-e291-40c5-be54-5135a2fdbbcc",
+      "reply_to": 3,
+      "text": "Nice! Why not Big chill?",
+      "likes": []
+    },
+    {
+      "id": 5,
+      "timestamp": "Wed Dec 25 2023 15:11:19 GMT+0100 (Central European Standard Time)",
+      "thread_from": "afba0a9a-e291-40c5-be54-5135a2fdbbcc",
+      "thread_to": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
+      "reply_to": 0,
+      "text": "Spider-mokkeyy",
+      "likes": []
+    },
+    {
+      "timestamp": "2023-12-22T14:20:14.751Z",
+      "thread_from": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
+      "thread_to": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
+      "reply_to": null,
+      "text": "yesss 100%",
+      "likes": [],
+      "id": 6
+    },
+    {
+      "timestamp": "2023-12-22T14:28:35.114Z",
+      "thread_from": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
+      "thread_to": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
+      "reply_to": null,
+      "text": "hello again",
+      "likes": [],
+      "id": 7
+    },
+    {
+      "timestamp": "2023-12-22T14:28:45.925Z",
+      "thread_from": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
+      "thread_to": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
+      "reply_to": 1,
+      "text": "hellooo",
+      "likes": [],
+      "id": 8
+    },
+    {
+      "timestamp": "2023-12-22T14:29:07.666Z",
+      "thread_from": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
+      "thread_to": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
+      "reply_to": 4,
+      "text": "hgg",
+      "likes": [],
+      "id": 9
+    },
+    {
+      "timestamp": "2023-12-22T14:31:20.736Z",
+      "thread_from": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
+      "thread_to": "ee100716-70ed-491d-b4d4-df126ae9ddfc",
+      "reply_to": null,
+      "text": "new post ",
+      "likes": [],
+      "id": 10
+    }
+  ]
 }
